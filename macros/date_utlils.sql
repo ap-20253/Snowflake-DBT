@@ -1,6 +1,6 @@
 {% macro function1(x) %}
  
- case when  To_timestamp({{x}}) < Current_date then 'PAST'
+ case when  to_timestamp({{x}}) < Current_date then 'PAST'
  else 'Future'
  end  
 
