@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: demo
+    database: PROJECT1
+    schema: PROJ_SCHEMA
+    tables:
+      - name: bike
+        description: "Raw sales transactions data from AWS S3"
+      - name: weather
